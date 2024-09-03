@@ -75,7 +75,7 @@ do {
         1 { Run-DiskManagement }
         2 { Run-RemoteManagement }
         3 { Run-UserManagement }
-        4 { Write-Host "Exiting script." -ForegroundColor Green; break }
+        4 { Write-Host "Exiting script." -ForegroundColor Green; exit }
         default { Write-Host "Invalid choice, please select again." -ForegroundColor Red }
     }
 } while ($true)
